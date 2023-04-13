@@ -1,0 +1,137 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-yellow: #fff206;
+}
+.clearfix {
+  clear: both;
+}
+.container {
+  width: 1120px;
+  margin: 0 auto;
+  overflow: auto;
+  display: flex;
+}
+.header {
+  width: 100%;
+  overflow: auto;
+}
+.logo {
+  float: left;
+  display: inline-table;
+  width: 30%;
+  height: 65px;
+  background: url("/images/logo.png") no-repeat left center;
+  margin-left: 50px;
+}
+.menu {
+  float: right;
+  display: inline-table;
+  width: 60%;
+  text-align: center;
+}
+.menu li {
+  display: inline-table;
+  margin: 0 10px 0 10px;
+  margin-top: 1%;
+}
+.menu li > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+.banner {
+  background-image: url("/images/banner.png");
+  background-size: cover;
+  background-position: center bottom;
+  height: 60vh;
+}
+
+.text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.image {
+  height: 150px;
+}
+.image img {
+  width: 100%;
+}
+#form {
+  overflow: auto;
+}
+.item {
+  display: inline-table;
+  text-align: center;
+  width: 280px;
+  height: 230px;
+}
+
+#center {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  padding: 20px 0 20px 0;
+}
+
+.button {
+  text-align: center;
+  width: 380px;
+  height: 280px;
+}
+.button .image {
+  width: 362px;
+  height: 200px;
+}
+.button .image img {
+  width: 100%;
+}
+.button .title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #f1fafd;
+  margin: 0 auto;
+}
+#company{
+  overflow: auto;
+}
+
+#bottom {
+  background-color: #fff206;
+}
+#title-bottom {
+  display: flex;
+}
+.title-left,
+.title-center {
+  width: 25%;
+  margin: 20px 80px 0 0;
+  font-weight: 500;
+}
+.title-right{
+  width: 25%;
+  margin: 30px 80px 0 0;
+}
+.title-bold-bottom {
+  font-weight: bold;
+  line-height: 20px;
+}
+.title-left {
+  font-weight: bold;
+}
+.title-center > ul,
+.title-left > ul {
+  list-style: none;
+  line-height: 20px;
+}
